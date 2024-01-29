@@ -5,6 +5,7 @@ class HotelRoom
 	private:
 	
 	public:
+
 	HotelRoom(){
 		cout<<"constructor initializes"<<endl;
 	}
@@ -16,6 +17,14 @@ class HotelRoom
 	void bookHotel(){
 	cout<<"book hotel"<<endl;
 	}
+
+	HotelRoom();
+	void searchHotels(){
+	cout<<"hotel searches"<<endl;
+	}
+	void viewHotels();
+	void bookHotel();
+
 	bool checkAvailability(string room);
 	void payment();
 
