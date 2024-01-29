@@ -9,6 +9,7 @@ class HotelRoom
 		cout<<"constructor initializes"<<endl;
 	}
 	void searchHotels();
+
 	void viewHotels(){
 	cout<<"view hotel"<<endl;
 	}
@@ -17,4 +18,14 @@ class HotelRoom
 	}
 	bool checkAvailability(string room);
 	void payment();
+
+	void viewHotels();
+	void bookHotel();
+	bool checkAvailability(string room){
+	cout<<"room check"<<endl;
+	}
+	void payment(){
+	cout<<"payment made"<<endl;
+	}
+
 };
