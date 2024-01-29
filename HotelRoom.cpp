@@ -7,8 +7,12 @@ class HotelRoom
 	public:
 	HotelRoom();
 	void searchHotels();
-	void viewHotels();
-	void bookHotel();
+	void viewHotels(){
+	cout<<"view hotel"<<endl;
+	}
+	void bookHotel(){
+	cout<<"book hotel"<<endl;
+	}
 	bool checkAvailability(string room);
 	void payment();
 };
