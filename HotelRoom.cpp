@@ -5,7 +5,9 @@ class HotelRoom
 	private:
 	
 	public:
-	HotelRoom();
+	HotelRoom(){
+		cout<<"constructor initializes"<<endl;
+	}
 	void searchHotels();
 	void viewHotels(){
 	cout<<"view hotel"<<endl;
